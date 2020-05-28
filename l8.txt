@@ -1,0 +1,9 @@
+1) który z symulowanych wykresów (i dlaczego) okazał się bliższy rzeczywistości, jak to zmierzyliście (zamieścić dane dotyczące podobieństwa).
+
+Model automatycznie wybiera najlepsze przyblizenie do rzeczywistości.
+Błąd przybliżenia jest mierzony za pomocą funkcji średni błąd kwadratowy. Dla danego okresu błąd wynosi MSE = 0.4002
+
+2) Jak wybrany okres symulacji powinien wpływać na dokładność symulacji i jak wpłynął w Waszym przypadku?
+
+Im dłuższy okres symulacji i tym samym przewidywania, tym dokładność jest mniejsza. Model zachowuje się dokładnie tak samo.
+Im większy okres do przewidzenia tym większy błąd i większa wartość MSE.
